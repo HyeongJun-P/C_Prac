@@ -6,10 +6,11 @@ int main() {
 		
 	NumPtr = &Num;
 	
-	printf("%p\n",NumPtr);
-	printf("%d\n",*NumPtr);
+	printf("%p\n",NumPtr); // Num의 주소값 
+	printf("%p\n",&Num); // & =  주소값 
+	printf("%d\n",*NumPtr); // Num의 값 
 	
-	printf("%p\n",&Num);
+	
 	
 	
 	
