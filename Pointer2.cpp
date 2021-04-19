@@ -7,6 +7,10 @@ int main() {
 	(*a) += 40;
 	a = &Num2;
 	(*a) -=50;
+	
+	printf("%p\n",&Num1);
+	printf("%p\n",a);	
+	
 	printf("%d %d", Num1, Num2);
 	return 0;
 }
